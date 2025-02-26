@@ -12,17 +12,17 @@ const Home = () => {
   
   const slides = [
     {
-      image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&q=80",
+      image:"/img/home/Home.png",
       title: "Transform Your Body",
       subtitle: "Start your fitness journey today"
     },
     {
-      image: "https://images.unsplash.com/photo-1549060279-7e168fcee0c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&q=80",
+      image: "/img/home/home1.png",
       title: "Expert Trainers",
       subtitle: "Get personalized training plans"
     },
     {
-      image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&q=80",
+      image: "/img/home/home.png",
       title: "State-of-the-art Equipment",
       subtitle: "Train with the best gear"
     }
