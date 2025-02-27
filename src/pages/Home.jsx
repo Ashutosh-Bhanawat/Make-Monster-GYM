@@ -17,15 +17,11 @@ const Home = () => {
       subtitle: "Start your fitness journey today"
     },
     {
-      image: "/img/home/home1.png",
+      image: "/img/home/Home1.jpg",
       title: "Expert Trainers",
       subtitle: "Get personalized training plans"
     },
-    {
-      image: "/img/home/home.png",
-      title: "State-of-the-art Equipment",
-      subtitle: "Train with the best gear"
-    }
+   
   ];
 
   React.useEffect(() => {
@@ -36,11 +32,7 @@ const Home = () => {
   }, []);
 
   const features = [
-    {
-      icon: <Dumbbell className="w-12 h-12 text-red-600" />,
-      title: "Modern Equipment",
-      description: "State-of-the-art fitness equipment for optimal results"
-    },
+    
     {
       icon: <Apple className="w-12 h-12 text-red-600" />,
       title: "Healthy Nutrition Plan",

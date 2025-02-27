@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* About Section */}
           <div>
-            <h3 className="text-xl font-bold mb-4">About Monster Gym</h3>
+            <h3 className="text-xl font-bold mb-4">About Make Monster</h3>
             <p className="text-gray-400">
               Transform your body and mind with our state-of-the-art facilities and expert trainers.
               Join us on your fitness journey today.
@@ -45,11 +45,11 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-2">
                 <Phone className="w-5 h-5 text-red-600" />
-                <span className="text-gray-400">+1 234 567 8900</span>
+                <span className="text-gray-400">+91 9867432567</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Mail className="w-5 h-5 text-red-600" />
-                <span className="text-gray-400">info@monstergym.com</span>
+                <span className="text-gray-400">ashutoshbhanawat9876@gmail.com</span>
               </li>
             </ul>
           </div>
@@ -76,7 +76,7 @@ const Footer = () => {
 
         <div className="mt-8 pt-8 border-t border-gray-800 text-center">
           <p className="text-gray-400">
-            © {new Date().getFullYear()} Monster Gym. All rights reserved.
+            © {new Date().getFullYear()} .Make Monster. All rights reserved.
           </p>
         </div>
       </div>

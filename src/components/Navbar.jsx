@@ -22,7 +22,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center space-x-2">
             <Dumbbell className="w-8 h-8 text-red-600" />
-            <span className="font-bold text-xl">Monster Gym</span>
+            <span className="font-bold text-xl">Make Monster</span>
           </Link>
 
           {/* Desktop Navigation */}

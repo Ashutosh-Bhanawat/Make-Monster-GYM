@@ -7,7 +7,7 @@ const Team = () => {
       name: "John Smith",
       role: "Head Trainer",
       specialties: ["Body Building", "Strength Training"],
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      image: "/img/team/team-1.png",    
       social: {
         facebook: "#",
         twitter: "#",
@@ -19,7 +19,7 @@ const Team = () => {
       name: "Sarah Johnson",
       role: "Fitness Instructor",
       specialties: ["Cardio", "HIIT"],
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      image: "/img/team/team-2.png", 
       social: {
         facebook: "#",
         twitter: "#",
@@ -31,7 +31,7 @@ const Team = () => {
       name: "Mike Wilson",
       role: "CrossFit Coach",
       specialties: ["CrossFit", "Functional Training"],
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      image: "/img/team/team-3.png", 
       social: {
         facebook: "#",
         twitter: "#",
@@ -43,7 +43,55 @@ const Team = () => {
       name: "Emma Davis",
       role: "Yoga Instructor",
       specialties: ["Yoga", "Meditation"],
-      image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      image: "/img/team/team-4.png",   
+      social: {
+        facebook: "#",
+        twitter: "#",
+        instagram: "#",
+        email: "emma@monstergym.com"
+      }
+    },
+    {
+      name: "Emma Davis",
+      role: "Yoga Instructor",
+      specialties: ["Yoga", "Meditation"],
+      image: "/img/team/team-5.png",   
+      social: {
+        facebook: "#",
+        twitter: "#",
+        instagram: "#",
+        email: "emma@monstergym.com"
+      }
+    },
+    {
+      name: "Emma Davis",
+      role: "Yoga Instructor",
+      specialties: ["Yoga", "Meditation"],
+      image: "/img/team/team-6.png",   
+      social: {
+        facebook: "#",
+        twitter: "#",
+        instagram: "#",
+        email: "emma@monstergym.com"
+      }
+    },
+    {
+      name: "Emma Davis",
+      role: "Yoga Instructor",
+      specialties: ["Yoga", "Meditation"],
+      image: "/img/team/team-7.png",   
+      social: {
+        facebook: "#",
+        twitter: "#",
+        instagram: "#",
+        email: "emma@monstergym.com"
+      }
+    },
+    {
+      name: "Emma Davis",
+      role: "Yoga Instructor",
+      specialties: ["Yoga", "Meditation"],
+      image: "/img/team/team-9.png",   
       social: {
         facebook: "#",
         twitter: "#",
@@ -57,9 +105,9 @@ const Team = () => {
     <div>
       {/* Hero Section */}
       <div 
-        className="relative h-[40vh] bg-cover bg-center"
+        className="relative h-[50vh] bg-cover bg-center"
         style={{ 
-          backgroundImage: "url('https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80')"
+          backgroundImage:`url("/img/home/Home1.jpg")`,
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-60" />
