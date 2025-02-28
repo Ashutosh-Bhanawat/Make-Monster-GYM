@@ -7,7 +7,7 @@ const Team = () => {
       name: "John Smith",
       role: "Head Trainer",
       specialties: ["Body Building", "Strength Training"],
-      image: `url("/img/team/team-1.png")`,    
+      image: "/img/team/team-1.png",    
       social: {
         facebook: "#",
         twitter: "#",
@@ -19,7 +19,7 @@ const Team = () => {
       name: "Sarah Johnson",
       role: "Fitness Instructor",
       specialties: ["Cardio", "HIIT"],
-      image: `url("/img/team/team-2.png")`, 
+      image: "/img/team/team-2.png", 
       social: {
         facebook: "#",
         twitter: "#",
@@ -31,7 +31,7 @@ const Team = () => {
       name: "Mike Wilson",
       role: "CrossFit Coach",
       specialties: ["CrossFit", "Functional Training"],
-      image: `url("/img/team/team-3.png")`,  
+      image: "/img/team/team-3.png", 
       social: {
         facebook: "#",
         twitter: "#",
@@ -43,7 +43,7 @@ const Team = () => {
       name: "Emma Davis",
       role: "Yoga Instructor",
       specialties: ["Yoga", "Meditation"],
-      image: `url("/img/team/team-4.png")`,  
+      image: "/img/team/team-4.png",   
       social: {
         facebook: "#",
         twitter: "#",
@@ -55,7 +55,7 @@ const Team = () => {
       name: "Emma Davis",
       role: "Yoga Instructor",
       specialties: ["Yoga", "Meditation"],
-      image:`url("/img/team/team-5.png")`,   
+      image: "/img/team/team-5.png",   
       social: {
         facebook: "#",
         twitter: "#",
@@ -67,7 +67,7 @@ const Team = () => {
       name: "Emma Davis",
       role: "Yoga Instructor",
       specialties: ["Yoga", "Meditation"],
-      image: `url("/img/team/team-6.png")`,   
+      image: "/img/team/team-6.png",   
       social: {
         facebook: "#",
         twitter: "#",
@@ -79,7 +79,7 @@ const Team = () => {
       name: "Emma Davis",
       role: "Yoga Instructor",
       specialties: ["Yoga", "Meditation"],
-      image: `url("/img/team/team-7.png")`,   
+      image: "/img/team/team-7.png",   
       social: {
         facebook: "#",
         twitter: "#",
@@ -91,7 +91,7 @@ const Team = () => {
       name: "Emma Davis",
       role: "Yoga Instructor",
       specialties: ["Yoga", "Meditation"],
-      image: `url("/img/team/team-9.png")`,   
+      image: "/img/team/team-9.png",   
       social: {
         facebook: "#",
         twitter: "#",

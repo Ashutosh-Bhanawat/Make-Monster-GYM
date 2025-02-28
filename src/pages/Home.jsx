@@ -21,7 +21,6 @@ const Home = () => {
       title: "Expert Trainers",
       subtitle: "Get personalized training plans"
     },
-   
   ];
 
   React.useEffect(() => {
