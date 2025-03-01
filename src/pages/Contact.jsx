@@ -17,27 +17,21 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Handle form submission here
-    console.log('Form submitted:', formData);
-  };
-
   const contactInfo = [
     {
       icon: <Phone className="w-6 h-6 text-red-600" />,
       title: "Phone",
-      details: ["+1 234 567 8900", "+1 234 567 8901"]
+      details: ["+91 9950481561", "+91 9950481561"]
     },
     {
       icon: <Mail className="w-6 h-6 text-red-600" />,
       title: "Email",
-      details: ["info@monstergym.com", "support@monstergym.com"]
+      details: ["aashutoshbhanawat9876@gmail.com", "aashutoshbhanawat9876@gmail.com"]
     },
     {
       icon: <MapPin className="w-6 h-6 text-red-600" />,
       title: "Location",
-      details: ["123 Fitness Street", "Gym City, GC 12345"]
+      details: ["123 Fitness Street", ", Udaipur"]
     },
     {
       icon: <Clock className="w-6 h-6 text-red-600" />,
@@ -90,7 +84,8 @@ const Contact = () => {
 
             {/* Contact Form */}
             <div className="lg:col-span-2">
-              <form onSubmit={handleSubmit} className="bg-white p-8 rounded-lg shadow-lg">
+              <form action='https://formspree.io/f/xovjooqw'
+              method='POST' className="bg-white p-8 rounded-lg shadow-lg">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
