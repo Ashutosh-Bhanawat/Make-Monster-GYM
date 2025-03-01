@@ -22,7 +22,7 @@ const Home = () => {
       subtitle: "Get personalized training plans"
     },
   ];
-
+ 
   React.useEffect(() => {
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
@@ -108,7 +108,7 @@ const Home = () => {
       <section className="py-20 bg-black text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold mb-4">Ready to Start Your Journey?</h2>
-          <p className="text-xl mb-8">Join Monster Gym today and transform your life</p>
+          <p className="text-xl mb-8">Join Make Monster today and transform your life</p>
           <Link
             to="/contact"
             className="bg-red-600 text-white px-8 py-3 rounded-full hover:bg-red-700 transition-colors duration-200"

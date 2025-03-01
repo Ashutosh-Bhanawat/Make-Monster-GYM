@@ -6,39 +6,39 @@ const Gallery = () => {
 
   const images = [
     {
-      url: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80",
+      url: '/img/gallery/1.jpg',
       title: "Weight Training Area"
     },
     {
-      url: "https://images.unsplash.com/photo-1549060279-7e168fcee0c2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80",
+      url: '/img/gallery/2.jpg',
       title: "Cardio Zone"
     },
     {
-      url: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80",
+      url:'/img/gallery/3.jpg',
       title: "Yoga Studio"
     },
     {
-      url: "https://images.unsplash.com/photo-1576678927484-cc907957088c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80",
+      url: '/img/gallery/4.jpg',
       title: "CrossFit Area"
     },
     {
-      url: "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80",
+      url:'/img/gallery/5.jpg',
       title: "Group Training"
     },
     {
-      url: "https://images.unsplash.com/photo-1579126038374-6064e9370f0f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80",
+      url: '/img/gallery/pers.jpg',
       title: "Personal Training"
     },
     {
-      url: "https://images.unsplash.com/photo-1532384748853-8f54a8f476e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80",
+      url:'/img/gallery/7.jpg',
       title: "Strength Training"
     },
     {
-      url: "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80",
+      url: '/img/gallery/6.jpg',
       title: "Morning Workout"
     },
     {
-      url: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80",
+      url: '/img/gallery/9.jpg',
       title: "Yoga Session"
     }
   ];
@@ -49,7 +49,7 @@ const Gallery = () => {
       <div 
         className="relative h-[40vh] bg-cover bg-center"
         style={{ 
-          backgroundImage: "url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80')"
+          backgroundImage: `url("/img/gallery/3.jpg")`,
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-60" />

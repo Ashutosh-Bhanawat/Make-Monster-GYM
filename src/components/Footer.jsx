@@ -76,7 +76,7 @@ const Footer = () => {
 
         <div className="mt-8 pt-8 border-t border-gray-800 text-center">
           <p className="text-gray-400">
-            © {new Date().getFullYear()} .Make Monster. All rights reserved.
+            © {new Date().getFullYear()} Make Monster. All rights reserved.
           </p>
         </div>
       </div>

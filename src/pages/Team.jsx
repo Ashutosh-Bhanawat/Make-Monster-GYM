@@ -4,7 +4,7 @@ import { Facebook, Twitter, Instagram, Mail } from 'lucide-react';
 const Team = () => {
   const trainers = [
     {
-      name: "John Smith",
+      name: "Agastya Rajput",
       role: "Head Trainer",
       specialties: ["Body Building", "Strength Training"],
       image: "/img/team/team-1.png",    
@@ -16,7 +16,7 @@ const Team = () => {
       }
     },
     {
-      name: "Sarah Johnson",
+      name: "Nayra Rajput",
       role: "Fitness Instructor",
       specialties: ["Cardio", "HIIT"],
       image: "/img/team/team-2.png", 
@@ -28,7 +28,7 @@ const Team = () => {
       }
     },
     {
-      name: "Mike Wilson",
+      name: "Avni Patil ",
       role: "CrossFit Coach",
       specialties: ["CrossFit", "Functional Training"],
       image: "/img/team/team-3.png", 
@@ -40,8 +40,8 @@ const Team = () => {
       }
     },
     {
-      name: "Emma Davis",
-      role: "Yoga Instructor",
+      name: "Shourya Mehta ",
+      role: "CrossFit Coach",
       specialties: ["Yoga", "Meditation"],
       image: "/img/team/team-4.png",   
       social: {
@@ -52,8 +52,8 @@ const Team = () => {
       }
     },
     {
-      name: "Emma Davis",
-      role: "Yoga Instructor",
+      name: "Arjun Rathore",
+      role: "Fitness Instructor",
       specialties: ["Yoga", "Meditation"],
       image: "/img/team/team-5.png",   
       social: {
@@ -64,7 +64,7 @@ const Team = () => {
       }
     },
     {
-      name: "Emma Davis",
+      name: "Kavya Rathore ",
       role: "Yoga Instructor",
       specialties: ["Yoga", "Meditation"],
       image: "/img/team/team-6.png",   
@@ -76,7 +76,7 @@ const Team = () => {
       }
     },
     {
-      name: "Emma Davis",
+      name: "Karan Verma",
       role: "Yoga Instructor",
       specialties: ["Yoga", "Meditation"],
       image: "/img/team/team-7.png",   
@@ -88,7 +88,7 @@ const Team = () => {
       }
     },
     {
-      name: "Emma Davis",
+      name: " Savitri Devi ",
       role: "Yoga Instructor",
       specialties: ["Yoga", "Meditation"],
       image: "/img/team/team-9.png",   
