@@ -6,7 +6,7 @@ const Classes = () => {
     {
       name: "Body Building",
       description: "Build strength and muscle mass with our comprehensive bodybuilding program.",
-      trainer: "John Smith",
+      trainer: "Agastya Rajput, Nayra Rajput",
       time: "Mon, Wed, Fri - 9:00 AM",
       capacity: 15,
       image: "https://images.unsplash.com/photo-1534367507873-d2d7e24c797f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80"
@@ -14,7 +14,7 @@ const Classes = () => {
     {
       name: "Cardio Blast",
       description: "High-intensity cardio workouts to improve endurance and burn calories.",
-      trainer: "Sarah Johnson",
+      trainer: "Karan Verma",
       time: "Tue, Thu - 10:00 AM",
       capacity: 20,
       image: "https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80"
@@ -22,7 +22,7 @@ const Classes = () => {
     {
       name: "Yoga Flow",
       description: "Find balance and flexibility through dynamic yoga sequences.",
-      trainer: "Emma Davis",
+      trainer: "Savitri Devi,Kavya Rathore",
       time: "Mon, Wed, Fri - 7:00 AM",
       capacity: 18,
       image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80"
@@ -30,7 +30,7 @@ const Classes = () => {
     {
       name: "CrossFit",
       description: "Challenge yourself with varied functional movements at high intensity.",
-      trainer: "Mike Wilson",
+      trainer: "Avni Patil , Shourya Mehta",
       time: "Tue, Thu, Sat - 8:00 AM",
       capacity: 12,
       image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80"
@@ -53,7 +53,7 @@ const Classes = () => {
       <div 
         className="relative h-[40vh] bg-cover bg-center"
         style={{ 
-          backgroundImage: "url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80')"
+          backgroundImage:`url("/img/home/Home1.jpg")`,
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-60" />

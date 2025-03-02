@@ -77,7 +77,7 @@ const Team = () => {
     },
     {
       name: "Karan Verma",
-      role: "Yoga Instructor",
+      role: "Cardio Blast",
       specialties: ["Yoga", "Meditation"],
       image: "/img/team/team-7.png",   
       social: {

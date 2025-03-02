@@ -16,49 +16,49 @@ const Services = () => {
       icon: <Dumbbell className="w-12 h-12 text-red-600" />,
       title: "Personal Training",
       description: "One-on-one training sessions tailored to your specific goals and needs.",
-      price: "$50/session"
+      price: "2000/session"
     },
     {
       icon: <Heart className="w-12 h-12 text-red-600" />,
       title: "Fitness Assessment",
       description: "Comprehensive fitness evaluation to track your progress and set goals.",
-      price: "$75"
+      price: "3000"
     },
     {
       icon: <Apple className="w-12 h-12 text-red-600" />,
       title: "Nutrition Counseling",
       description: "Expert guidance on nutrition to support your fitness journey.",
-      price: "$60/session"
+      price: "3600/session"
     },
     {
       icon: <Users className="w-12 h-12 text-red-600" />,
       title: "Group Classes",
       description: "Energetic group workouts led by experienced instructors.",
-      price: "$20/class"
+      price: "1700/class"
     },
     {
       icon: <Scale className="w-12 h-12 text-red-600" />,
       title: "Weight Management",
       description: "Structured programs to help you achieve your ideal weight.",
-      price: "$200/month"
+      price: "9000/month"
     },
     {
       icon: <Trophy className="w-12 h-12 text-red-600" />,
       title: "Sports Training",
       description: "Specialized training for athletes and sports enthusiasts.",
-      price: "$65/session"
+      price: "37000/session"
     },
     {
       icon: <Clock className="w-12 h-12 text-red-600" />,
       title: "24/7 Gym Access",
       description: "Round-the-clock access to our state-of-the-art facilities.",
-      price: "$40/month"
+      price: "2800/month"
     },
     {
       icon: <Smile className="w-12 h-12 text-red-600" />,
       title: "Wellness Programs",
       description: "Holistic wellness programs combining fitness and lifestyle coaching.",
-      price: "$150/month"
+      price: "4600/month"
     }
   ];
 
@@ -68,7 +68,7 @@ const Services = () => {
       <div 
         className="relative h-[40vh] bg-cover bg-center"
         style={{ 
-          backgroundImage: "url('https://images.unsplash.com/photo-1576678927484-cc907957088c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80')"
+          backgroundImage: `url("/img/home/Home1.jpg")`,
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-60" />

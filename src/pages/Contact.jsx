@@ -46,7 +46,7 @@ const Contact = () => {
       <div 
         className="relative h-[40vh] bg-cover bg-center"
         style={{ 
-          backgroundImage: "url('https://images.unsplash.com/photo-1579126038374-6064e9370f0f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80')"
+          backgroundImage:`url("/img/home/Home1.jpg")`,
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-60" />
